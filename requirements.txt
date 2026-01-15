@@ -3,4 +3,5 @@ torch
 torchvision
 pillow
 pandas
+nltk
 matplotlib
