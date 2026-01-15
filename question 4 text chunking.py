@@ -5,6 +5,8 @@ from PyPDF2 import PdfReader
 
 # Download punkt tokenizer (for sentences)
 nltk.download("punkt", quiet=True)
+
+nltk.download("punkt_tab")
 from nltk.tokenize import sent_tokenize
 
 # ----------------------------
@@ -75,3 +77,4 @@ if uploaded_file is not None:
 
 else:
     st.info("Please upload a PDF file to start text chunking.")
+
